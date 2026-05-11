@@ -1,8 +1,8 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/"
+    "/content/multirepo-venclexta/:/"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/multirepo-venclexta/"
   ]
 }
