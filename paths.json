@@ -1,8 +1,0 @@
-{
-  "mappings": [
-    "/content/multirepo-venclexta/:/"
-  ],
-  "includes": [
-    "/content/multirepo-venclexta/"
-  ]
-}
