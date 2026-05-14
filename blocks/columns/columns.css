@@ -21,7 +21,7 @@
 
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
+    align-items: start;
     flex-direction: unset;
     gap: 24px;
   }
@@ -31,3 +31,38 @@
     order: unset;
   }
 }
+
+/* columns — 6-col nav grid heading links */
+.columns.columns-6-cols > div > div > p > strong,
+.columns.columns-6-cols > div > div > p > strong > a {
+  color: var(--color-text-heading);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--body-font-size-m);
+  text-decoration: none;
+}
+
+/* columns — 6-col nav grid sub-links */
+.columns.columns-6-cols > div > div > ul {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-s) 0 0;
+}
+
+.columns.columns-6-cols > div > div > ul li {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+/* stylelint-disable no-descending-specificity */
+.columns.columns-6-cols > div > div > ul a {
+  color: var(--color-text);
+  font-size: var(--body-font-size-s);
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+}
+
+.columns.columns-6-cols > div > div > ul a:hover {
+  color: var(--color-text-heading);
+}
+/* stylelint-enable no-descending-specificity */
