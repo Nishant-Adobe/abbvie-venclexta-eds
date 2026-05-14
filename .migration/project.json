@@ -1,10 +1,10 @@
 {
-  "previewOrg": "nishant-adobe",
-  "previewSite": "abbvie-venclexta-eds",
   "type": "xwalk",
   "contentHostUrl": "author-p160552-e1944799.adobeaemcloud.com",
   "aemSitePath": "/content/multirepo-venclexta",
   "aemAssetsFolderPath": "/content/dam/multirepo-venclexta",
   "aemSiteName": "multirepo-venclexta",
-  "aemSiteTitle": "Venclexta"
+  "aemSiteTitle": "Venclexta",
+  "previewOrg": "nishant-adobe",
+  "previewSite": "abbvie-venclexta-eds"
 }
