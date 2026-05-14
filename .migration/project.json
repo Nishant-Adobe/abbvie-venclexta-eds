@@ -6,5 +6,6 @@
   "aemSiteName": "multirepo-venclexta",
   "aemSiteTitle": "Venclexta",
   "previewOrg": "nishant-adobe",
-  "previewSite": "abbvie-venclexta-eds"
+  "previewSite": "abbvie-venclexta-eds",
+  "baseUrl": "https://www.venclexta.com"
 }
